@@ -1,0 +1,8 @@
+add_library(Texture Texture.cpp)
+add_library(VertexBuffer VertexBuffer.cpp)
+add_library(IndexBuffer IndexBuffer.cpp)
+add_library(Shaders shaders.cpp)
+add_library(Camera Camera.cpp)
+add_library(glad glad.c)
+add_library(App App.cpp)
+add_library(Main main.cpp)
