@@ -7,7 +7,7 @@
 #include <iostream>
 #include <unordered_map>
 
-#include "Include/stb_image.h"
+#include "include/stb_image.h"
 
 class Test : public Application
 {

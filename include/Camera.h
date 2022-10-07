@@ -2,8 +2,8 @@
 #define CAMERA_H
 
 #include <glad/glad.h>
-#include "../Include/glm/glm.hpp"
-#include "../Include/glm/gtc/matrix_transform.hpp"
+#include "../include/glm/glm.hpp"
+#include "../include/glm/gtc/matrix_transform.hpp"
 
 #include <vector>
 
