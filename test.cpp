@@ -11,6 +11,8 @@
 
 class Test : public Application
 {
+    int test;
+
 private:
     Camera m_Camera;
     Shader m_MyShader;
@@ -93,7 +95,7 @@ void Test::Render()
     int m_TexWidth = 500;
     int m_TexHeight = 500;
     glBindTexture(GL_TEXTURE_2D, tex);
-
+    firei;
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);	// set texture wrapping to GL_REPEAT (default wrapping method)
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
